@@ -33,6 +33,7 @@ def monopoly_with_third_tier
   monopoly[:railroads][:rent_in_dollars] = {}
   monopoly[:railroads][:rent_in_dollars][:one_piece_owned] = 25
   monopoly[:railroads][:rent_in_dollars][:two_piece_owned] = 50
+  monopoly[:railroads][:rent_in_dollars][:two_piece_owned]
   monopoly[:railroads][:rent_in_dollars][:three_piece_owned] = 100
   monopoly[:railroads][:rent_in_dollars][:four_piece_owned] = 200
   
