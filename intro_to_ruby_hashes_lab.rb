@@ -36,6 +36,10 @@ def monopoly_with_third_tier
   monopoly[:railroads][:rent_in_dollars][:three_piece_owned] = 100
   monopoly[:railroads][:rent_in_dollars][:four_piece_owned] = 200
   monopoly[:railroads][:names][:reading_railroad] = {}
+  monopoly[:railroads][:names].keys[0] = reading_railroad
+  monopoly[:railroads][:names][:pennsylvania_railroad].keys[1] = "mortgage_value"
+  monopoly[:railroads][:names][:b_and_o_railroad].keys[2] = "mortgage_value"
+  monopoly[:railroads][:names][:shortline]["mortgage_value"
   monopoly
 end
 
